@@ -1,0 +1,9 @@
+<!-- AR.js by @jerome_etienne - github: https://github.com/jeromeetienne/ar.js - info: https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf -->
+<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+<body style='margin : 0px; overflow: hidden;'>
+	<a-scene embedded arjs='sourceType: webcam;'>
+		<a-plane scale='5.94 8.41 1' position='2.97 0.001 4.205' rotation='-90 0 0' material='opacity: 0.5;' src='https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/417ce1be-7afa-467c-895c-ffbe4b650fef/ddi8yeo-0e860b64-20b8-404f-9f17-5e0aaf90c48a.jpg/v1/fill/w_751,h_1063,q_70,strp/trial_1_5_hiro_marker_virtual_reality_by_danniellethorman_ddi8yeo-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgxMSIsInBhdGgiOiJcL2ZcLzQxN2NlMWJlLTdhZmEtNDY3Yy04OTVjLWZmYmU0YjY1MGZlZlwvZGRpOHllby0wZTg2MGI2NC0yMGI4LTQwNGYtOWYxNy01ZTBhYWY5MGM0OGEuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.AZ3gYjzUFXcekplzCmbs-jezAN8RYvRwP8spoJWBlSs'></a-plane>
+		<a-marker-camera preset='hiro'></a-marker-camera>
+	</a-scene>
+</body>
